@@ -56,6 +56,7 @@ public class Main {
 
     private static int[] prepareCoordinate(String input) {
         if (isLog) System.out.println(input);
+        if (isLog) System.out.println(input);
         char[] data = input.toCharArray();
         if (isLog) System.out.println(Arrays.toString(data));
         int[] coor = {4, 1, 4, 3};
